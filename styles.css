@@ -483,7 +483,7 @@ color: var(--white-color);
         padding: 0 4%;
 
     }
-    .resumen,
+    .resume,
     .portfolio{
         padding-top: 1.5rem;
         padding-bottom: 27rem;
@@ -499,6 +499,8 @@ color: var(--white-color);
     }
     .nav{
         bottom: 0;
+        width: 100%;
+        border-radius: 0;
     }
     .home,
     .about{
@@ -513,62 +515,64 @@ color: var(--white-color);
     .img-box{
         width: 35rem;
         height: 35rem;
+        height: auto;
     }
-    .resumen,
+    .resume,
     .portfolio{
         padding-bottom: 25rem;
     }
     .contact{
         padding-bottom: 16rem;
     }
+    .home-info,
+    .about-info {
+        text-align: center;
+    }
+    .home-info .btn-sci {
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 600px){
-    .resumen,
+    .resume,
     .portfolio{
         padding-top: 1rem;
         padding-bottom: 22rem;
     }
     .tab-box{
         padding-top: 1rem;
-        padding-bottom: 22rem;
+        padding-bottom: 2rem;
     }
     .contact{
         padding-top: 1rem;
     }
 }
 @media screen and (max-width: 400px){
-    .nav{
-        width: 100%;
-        border-radius: 0;
+    .home-info h1 {
+        font-size: 4rem;
     }
-    .home-info,
-    .about-info{
-        text-align: center;
+    .home-info .btn-sci {
+        flex-direction: column;
+        align-items: center;
     }
-    .home-info h1{
-        font-size: 5rem;
-    }
-    .home-info .btn-sci{
-        flex-direction: column-reverse;
-    }
-    .home-info .btn-sci .sci{
+    .home-info .btn-sci .sci {
         margin-left: 0;
-        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
-    .img-box{
-        width: 30rem;
-        height: 30rem;
+    .img-box img {
+        max-width: 30rem;
     }
-    .about-info .title{
+    .about-info .title {
         text-align: center;
+    }
+    .contact-form {
+        width: 100%;
     }
 }
 @media screen and (max-width: 350px){
-    .img-box{
-         width: 25rem;
-         height: 25rem;
+    .img-box img{
+        max-width: 25rem;
     }
-    .tab-list{
-        font-size: 2.3rem;
+    .tab-list h3{
+        font-size: 1.8rem;
     }
 }

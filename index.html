@@ -337,14 +337,14 @@
         <section class="section contact">
              <h2 class="title">Contactos</h2>
              <div class="contact-wrapper">
-                <form action="" class="contact-form">
+                <form action="https://formspree.io/f/xovqagwj" method="POST" class="contact-form">
                     <h3>Trabajemos Juntos!</h3>
                     <div class="field-box">
-                        <input type="text" placeholder="nombre completo" required>
-                        <input type="email" placeholder="direccion de correo" required>
-                        <input type="text" placeholder="numero de telefono" required>
-                        <input type="text" placeholder="numero de telefono opcional" required>
-                        <textarea name="" id="" placeholder="deja tu mensaje" required></textarea>
+                        <input type="text" name="nombre" placeholder="nombre completo" required>
+                        <input type="email" name="correo" placeholder="direccion de correo" required>
+                        <input type="tel" name="telefono" placeholder="numero de telefono" required>
+                        <input type="tel" name="telefono_opcional" placeholder="numero de telefono opcional" required>
+                        <textarea name="mensaje" id="" placeholder="deja tu mensaje" required></textarea>
                     </div>
                     <div class="contact-btn">
                         <button type="submit" class="btn">enviar mensaje</button>
