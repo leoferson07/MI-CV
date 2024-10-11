@@ -533,22 +533,69 @@ color: var(--white-color);
     }
 }
 @media screen and (max-width: 600px){
+    html {
+        font-size: 50%;
+    }
+    .nav {
+        bottom: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    .home,
+    .about {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 2rem;
+        padding-bottom: 6rem;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .img-box img {
+        width: 100%;
+        max-width: 30rem;
+        height: auto;
+    }
+    .home-info h1 {
+        font-size: 4.5rem;
+    }
+    .home-info h3 {
+        font-size: 2.5rem;
+    }
+    .desc {
+        font-size: 2rem;
+    }
     .resume,
-    .portfolio{
-        padding-top: 1rem;
-        padding-bottom: 22rem;
+    .portfolio {
+        padding-bottom: 25rem;
     }
-    .tab-box{
-        padding-top: 1rem;
-        padding-bottom: 2rem;
+    .contact {
+        padding-bottom: 16rem;
     }
-    .contact{
-        padding-top: 1rem;
+    .home-info,
+    .about-info {
+        text-align: center;
     }
+    .home-info .btn-sci {
+        justify-content: center;
+    }
+    .about-info .title {
+        font-size: 3.5rem;
+    }
+    .about-info h3 {
+        font-size: 2.5rem;
+    }
+    
 }
 @media screen and (max-width: 400px){
     .home-info h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
+    }
+    .home-info h3 {
+        font-size: 2rem;
+    }
+    .desc {
+        font-size: 1.8rem;
     }
     .home-info .btn-sci {
         flex-direction: column;
@@ -559,20 +606,43 @@ color: var(--white-color);
         margin-top: 2rem;
     }
     .img-box img {
-        max-width: 30rem;
+        max-width: 25rem;
     }
     .about-info .title {
+        font-size: 3rem;
         text-align: center;
+    }
+    .about-info h3 {
+        font-size: 2rem;
     }
     .contact-form {
         width: 100%;
     }
+    .btn {
+        padding: 1rem 2.5rem;
+        font-size: 1.4rem;
+    }
 }
 @media screen and (max-width: 350px){
-    .img-box img{
-        max-width: 25rem;
+    .home-info h1 {
+        font-size: 3rem;
     }
-    .tab-list h3{
+    .home-info h3 {
         font-size: 1.8rem;
+    }
+    .desc {
+        font-size: 1.6rem;
+    }
+    .img-box img {
+        max-width: 20rem;
+    }
+    .about-info .title {
+        font-size: 2.5rem;
+    }
+    .about-info h3 {
+        font-size: 1.8rem;
+    }
+    .tab-list h3 {
+        font-size: 1.6rem;
     }
 }
