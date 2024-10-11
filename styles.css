@@ -585,6 +585,33 @@ color: var(--white-color);
     .about-info h3 {
         font-size: 2.5rem;
     }
+
+   .resume-box.habilidades {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 1rem; 
+    -webkit-overflow-scrolling: touch; 
+
+.resume-box.habilidades .resume-item {
+    flex: 0 0 auto;
+    width: 150px; 
+    margin-right: 1rem;
+}
+
+.resume-box.habilidades .resume-item:last-child {
+    margin-right: 0;
+}
+
+.resume-box.habilidades .resume-item i {
+    font-size: 4rem; 
+}
+
+.resume-box.habilidades .resume-item p {
+    font-size: 1.2rem; 
+}
+
     
 }
 @media screen and (max-width: 400px){
@@ -622,6 +649,7 @@ color: var(--white-color);
         padding: 1rem 2.5rem;
         font-size: 1.4rem;
     }
+
 }
 @media screen and (max-width: 350px){
     .home-info h1 {
@@ -645,4 +673,5 @@ color: var(--white-color);
     .tab-list h3 {
         font-size: 1.6rem;
     }
+}
 }
