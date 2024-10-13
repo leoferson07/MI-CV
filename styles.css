@@ -106,8 +106,8 @@ a:hover .tootip{
     transform-style: preserve-3d;
     transform-origin: 50% 50% -50vw;
     transform: rotateY(0deg);
-    transition: 2s;
-    animation: animate-cube 4s ease-in-out backwards;
+    transition: 1s;
+    animation: animate-cube 2s ease-in-out backwards;
 }
 
 @keyframes animate-cube{
