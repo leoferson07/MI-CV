@@ -566,10 +566,14 @@ color: var(--white-color);
     .about {
         flex-direction: column;
     }
+    .img-box {
+        width: 25rem;
+        height: 25rem;
+        box-shadow: 0 0 1rem var(--main-color);
+    }
+    
     .img-box img {
-        width: 100%;
-        max-width: 30rem;
-        height: auto;
+        top: 1rem;
     }
     .home-info h1 {
         font-size: 4.5rem;
