@@ -527,10 +527,13 @@ color: var(--white-color);
     .about{
         flex-direction: column;
     }
-    .img-box{
-        width: 35rem;
-        height: 35rem;
-        height: auto;
+    .img-box {
+        width: 30rem;  /* Ajusta el tamaño según sea necesario */
+        height: 30rem; /* Ajusta el tamaño según sea necesario */
+    }
+
+    .img-box img {
+        top: 2rem; /* Ajusta la posición de la imagen */
     }
     .resume,
     .portfolio{
@@ -651,8 +654,14 @@ color: var(--white-color);
         margin-left: 0;
         margin-top: 2rem;
     }
+    .img-box {
+        width: 20rem;  /* Ajusta el tamaño según sea necesario */
+        height: 20rem; /* Ajusta el tamaño según sea necesario */
+        box-shadow: 0 0 .5rem var(--main-color); /* Efecto de sombra más sutil */
+    }
+
     .img-box img {
-        max-width: 25rem;
+        top: 0.5rem; /* Ajusta la posición de la imagen */
     }
     .about-info .title {
         font-size: 3rem;
